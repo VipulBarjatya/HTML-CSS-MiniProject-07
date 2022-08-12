@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 0rem 4rem 6rem;
+
+}
+
+.nav-items {
+    display: flex;
+    gap: 6rem;
+    font-size: 30px;
+    margin-left: 8rem;
+
+}
+
+.nav-item {
+    font-weight: 400;
+}
+
+.active-item {
+    color: #fe5e35;
+    font-weight: 800;
+
+}
+
+.intro-section {
+    display: grid;
+    grid-template-columns: 55vw 45vw;
+}
+
+.left-section {
+    padding-left: 6rem;
+}
+
+h3 {
+    font-size: 51px;
+    font-weight: normal;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: .6rem;
+}
+
+h1 {
+    font-family: Fredoka One, serif;
+    font-size: 96px;
+    font-weight: 400;
+    padding-left: .3rem;
+    margin-bottom: 3.5rem;
+}
+
+.sub-headlines {
+    padding-left: 7.2rem;
+    margin-bottom: 4rem;
+}
+
+.sub-headline {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sub-headline img {
+    background-color: #fe5e35;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 200;
+    padding-left: .3rem;
+    padding-right: 4.10rem;
+    line-height: 1.5rem;
+    color: #4d4d4d;
+    margin-bottom: 3.5rem;
+}
+
+.action-btns {
+    display: flex;
+    gap: 2rem;
+    padding-left: .5rem;
+    margin-bottom: 3rem;
+}
+
+.action-btn {
+    border: none;
+    background-color: #fe5e35;
+    color: #fff;
+    font-size: 24px;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-family: Poppins, serif;
+}
+
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 7rem;
+}
+
+.headphone-div {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    top: 55%;
+    left: -60px;
+    filter: drop-shadow(.3rem .6rem rgba(0, 0, 0, 0.4));
+}
+
+.discount-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 62%;
+    left: -30px;
+    font-family: Fredoka One, serif;
+    font-size: 18px;
+
+    color: #fff;
+}
+
+.discount-content h4 {
+    font-weight: 400;
+}
+
+.discount-content h1 {
+    font-size: 64px;
+    font-weight: 500;
+
+}
+
+.dots {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3.35rem;
+}
+
+.dot {
+    width: 36px;
+    height: 36px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.yellow-dot {
+    background-color: #fbd104;
+}
+
+.tomato-dot {
+    background-color: #fe5e35;
+}
