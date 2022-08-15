@@ -13,7 +13,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 6rem 0rem 4rem 6rem;
+    padding: 2rem 0rem 4rem 6rem;
 
 }
 
@@ -169,4 +169,143 @@ h1 {
 
 .tomato-dot {
     background-color: #fe5e35;
+}
+
+
+
+@media(max-width: 1200px) {
+    nav {
+        padding: 1rem;
+    }
+
+    .nav-items {
+        gap: 2rem;
+    }
+
+    .intro-section {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .left-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .sub-headlines {
+        padding: 0;
+        margin: 4rem;
+    }
+
+    .text {
+        margin: 2rem 4rem;
+        padding: 0;
+    }
+
+    .action-btn {
+        font-size: 20px;
+        padding: .8rem 2rem;
+        border-radius: 50px;
+        margin-bottom: 1rem;
+        font-family: Poppins, serif;
+    }
+}
+
+@media(max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav img {
+        height: 40px;
+    }
+
+    .nav-items {
+        order: 2;
+        margin: 0 auto;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    h3 img {
+        width: 50px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    .sub-headlines {
+        padding: 0;
+        margin: 2rem;
+    }
+
+    .sub-headline {
+        font-size: 24px;
+    }
+
+    .sub-headline img {
+        width: 24px;
+        padding: 0.25rem;
+    }
+
+    h5.sub-headline {
+        margin: 0px 0px 12px;
+    }
+
+    .action-btn {
+        font-size: 16px;
+        padding: .6rem 1.6rem;
+        border-radius: 50px;
+        font-family: Poppins, serif;
+    }
+
+
+    .headphone {
+        width: 406px;
+    }
+
+    .discount {
+        width: 128px;
+        left: -45px;
+    }
+
+    .discount-content h4 {
+        font-size: 12px;
+    }
+
+    .discount-content h1 {
+        font-size: 48px;
+    }
+
+    .dots {
+
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .dot {
+        width: 24px;
+        height: 24px;
+
+    }
+
 }
